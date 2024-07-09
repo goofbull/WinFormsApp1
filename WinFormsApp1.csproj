@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.OleDb" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\Desktop\8213295\Базы данных\ЛР7\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>..\..\..\Desktop\8213295\Базы данных\ЛР7\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OleDb">
+      <HintPath>..\..\..\Desktop\8213295\Базы данных\ЛР7\System.Data.OleDb.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="System.Data" />
+    <Using Include="System.Data.OleDb" />
+  </ItemGroup>
+
+</Project>
